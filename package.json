@@ -1,0 +1,22 @@
+{
+  "name": "bookmonkey-demo",
+  "version": "1.0.0",
+  "description": "Bookmonkey API host for workshops & co.",
+  "scripts": {
+    "start": "ncp node_modules/bookmonkey-api/db-original.json node_modules/bookmonkey-api/db.json && bookmonkey-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christianliebel/bookmonkey-demo.git"
+  },
+  "author": "Christian Liebel",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/christianliebel/bookmonkey-demo/issues"
+  },
+  "homepage": "https://github.com/christianliebel/bookmonkey-demo#readme",
+  "dependencies": {
+    "bookmonkey-api": "^2.0.3",
+    "ncp": "^2.0.0"
+  }
+}
